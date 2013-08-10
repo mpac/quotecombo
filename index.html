@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<!-- QuoteCombo by Michael Pacchioli -->
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+
+    <title>QuoteCombo</title>
+
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
+
+    <link href="css/main.css" rel="stylesheet">
+
+    <script src="js/jquery-1.9.1.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+
+    <script src="js/quotes.js"></script>
+    <script src="js/main.js"></script>
+
+    <!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+<div id="quote-modal" class="modal hide fade" aria-hidden="true">
+    <div class="modal-body">
+	<p>CORRECT!</p>
+
+	<p><span id="quote"></span></p>
+
+	<p><span id="attribution"></span></p>
+    </div>
+
+    <div class="modal-footer">
+	<a href="#" class="btn" data-dismiss="modal" aria-hidden="true">Close</a>
+    </div>
+</div>
+
+<div class="container" style="width:85%; text-align:center;">
+    <br/>
+    <h2>QuoteCombo</h2>
+    <h4>Select the correct letters to uncover the quote.</h4>
+    <br/>
+    
+    <div id="puzzle"></div>
+</div>
+
+<br/>
+
+</body>
+
+</html>

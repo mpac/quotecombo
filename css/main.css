@@ -1,0 +1,43 @@
+/*
+Copyright 2013, Michael Pacchioli.
+ 
+This file is part of QuoteCombo.
+
+QuoteCombo is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License, version 3,
+as published by the Free Software Foundation.
+
+QuoteCombo is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with QuoteCombo.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+div.group {
+	border: 1px solid black;
+	
+	padding: 5px;
+	margin-bottom: 5px;
+	margin-right: 5px;
+
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+
+	float: left;
+}
+
+div.clear {
+	clear: both;
+}
+
+div.vertical-space {
+	height: 10px;
+}
+
+span.letter {
+	color: #CCCCCC;
+}
